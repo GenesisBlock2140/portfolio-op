@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sulphur+Point:wght@300;400;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Reset CSS - Pour unifier les styles de base sur les navigateurs */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #1e1e1f;
+}
+/* color a test #373738 */
+
+/* Les styles de base pour html et body */
+html {
+  scroll-behavior: smooth;
+  font-size: 16px; /* Par défaut, peut être ajusté selon vos besoins */
+}
+
+body {
+  margin: 0;
+  font-family: "Sulphur Point", sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Images et médias */
+img,
+picture,
+video,
+canvas {
+  max-width: 100%;
+  display: block;
+}
+
+/* Pour les formulaires */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Pour les listes */
+ul,
+ol {
+  list-style: none;
+}
+
+h2 {
+  font-size: 28px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Pour les ancres */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Color Palette */
+
+html {
+  --primary: #5273e8;
+  --bg--light: #ffffff;
+  --bg--darker: #f6f2f1;
+}
+
