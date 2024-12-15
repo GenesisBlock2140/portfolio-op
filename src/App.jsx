@@ -44,14 +44,14 @@ function App() {
           </p>
           <div className="w-[90%] flex gap-6">
             <div className="w-1/2">
-              <ToolsItem title="Figma" desc="Design d'interface graphique." svg="../src/assets/figma.svg" />
-              <ToolsItem title="ChatGPT" desc="Gains de temps, corrections, idées, ..." svg="../src/assets/openai.svg" />
-              <ToolsItem title="API OpenAI" desc="Interaction API avec les modèles d'OpenAI" svg="../src/assets/openai.svg" />
+              <ToolsItem title="Figma" desc="Design d'interface graphique." svg="figma.svg" />
+              <ToolsItem title="ChatGPT" desc="Gains de temps, corrections, idées, ..." svg="openai.svg" />
+              <ToolsItem title="API OpenAI" desc="Interaction API avec les modèles d'OpenAI" svg="openai.svg" />
             </div>
             <div className="w-1/2">
-              <ToolsItem title="Slack" desc="Plateforme de communication" svg="../src/assets/slack.svg" />
-              <ToolsItem title="Trello" desc="Outil de gestion de projet" svg="../src/assets/trello.svg" />
-              <ToolsItem title="VSCode" desc="Editeur de code" svg="../src/assets/vscode.svg" />
+              <ToolsItem title="Slack" desc="Plateforme de communication" svg="slack.svg" />
+              <ToolsItem title="Trello" desc="Outil de gestion de projet" svg="trello.svg" />
+              <ToolsItem title="VSCode" desc="Editeur de code" svg="vscode.svg" />
             </div>
           </div>
         </Container>
@@ -63,25 +63,25 @@ function App() {
           </p>
           <div className="w-[90%] flex gap-6">
             <div className="w-1/2">
-              <ToolsItem title="React" desc="Bibliothèque Javascript pour le front-end" svg="../src/assets/react.svg" />
-              <ToolsItem title="Javascript" desc="Langage de programmation" svg="../src/assets/javascript.svg" />
-              <ToolsItem title="Typescript" desc="Surcouche de typage pour Javascript" svg="../src/assets/typescript.svg" />
+              <ToolsItem title="React" desc="Bibliothèque Javascript pour le front-end" svg="react.svg" />
+              <ToolsItem title="Javascript" desc="Langage de programmation" svg="javascript.svg" />
+              <ToolsItem title="Typescript" desc="Surcouche de typage pour Javascript" svg="typescript.svg" />
             </div>
             <div className="w-1/2">
               <ToolsItem
                 title="Node"
                 desc="Création de back-end en Javascript"
-                svg="../src/assets/node.svg"
+                svg="node.svg"
               />
               <ToolsItem
                 title="Express"
                 desc="Création de serveur sous Node.js"
-                svg="../src/assets/express.svg"
+                svg="express.svg"
               />
               <ToolsItem
                 title="Tailwind"
                 desc="Framework CSS"
-                svg="../src/assets/tailwind.svg"
+                svg="tailwind.svg"
               />
             </div>
           </div>
